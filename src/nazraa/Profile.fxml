@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Point3D?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" nodeOrientation="LEFT_TO_RIGHT" prefHeight="660.0" prefWidth="1280.0" style="-fx-background-color: #EAFAF1;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nazraa.ProfileController">
+   <children>
+      <ImageView fx:id="UserName" fitHeight="660.0" fitWidth="1280.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Minimalistic%20Background.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="1070.0" layoutY="40.0" onMouseClicked="#Exit" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../logout.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Profile" fitHeight="50.0" fitWidth="50.0" layoutX="930.0" layoutY="45.0" onMouseClicked="#DisplayProfile" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../personal_info.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="1000.0" layoutY="40.0" onMouseClicked="#DisplayHome" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../house.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="60.0" fitWidth="60.0" onMouseClicked="#BackScene" pickOnBounds="true" preserveRatio="true" style="-fx-translate-x: 60; -fx-translate-y: 470;">
+         <image>
+            <Image url="@../chevronLeft.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="543.0" layoutY="13.0" prefHeight="129.0" prefWidth="149.0" text="زرعاتـي" textAlignment="CENTER" textFill="#015b1d">
+         <font>
+            <Font name="DecoType Naskh Variants" size="50.0" />
+         </font>
+      </Label>
+      <ListView fx:id="Wateringtime" layoutX="346.0" layoutY="202.0" nodeOrientation="RIGHT_TO_LEFT" prefHeight="327.0" prefWidth="181.0" style="-fx-background-color: transparent; -fx-border-width: 1; -fx-border-color: green;" />
+      <ComboBox fx:id="namepalnt" layoutX="921.0" layoutY="244.0" nodeOrientation="RIGHT_TO_LEFT" prefHeight="33.0" prefWidth="181.0" style="-fx-background-color: transparent; -fx-border-color: green;" visibleRowCount="12" />
+      <Label layoutX="954.0" layoutY="201.0" prefHeight="21.0" prefWidth="200.0" text="اسم الزرعه :" textFill="#015b1d">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="935.0" layoutY="298.0" prefHeight="21.0" prefWidth="200.0" text="تاريخ بداية الزراعه:" textFill="#015b1d">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <DatePicker fx:id="date" layoutX="921.0" layoutY="340.0" nodeOrientation="RIGHT_TO_LEFT" prefHeight="33.0" prefWidth="181.0" showWeekNumbers="true" style="-fx-background-color: transparent; -fx-border-color: green;" />
+      <Button fx:id="add" layoutX="923.0" layoutY="406.0" mnemonicParsing="false" onAction="#addplant" onMouseClicked="#Listener" onMouseEntered="#entred" onMouseExited="#exited" prefHeight="31.0" prefWidth="189.0" style="-fx-background-color: linear-gradient(#ABEBC6,#82E0AA); -fx-border-radius: 50px; -fx-background-radius: 50px;" text="اضافه" textFill="#015b1d">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="delet" layoutX="923.0" layoutY="467.0" mnemonicParsing="false" onAction="#deletplant" onMouseClicked="#Listener" onMouseEntered="#entred" onMouseExited="#exited" prefHeight="31.0" prefWidth="189.0" style="-fx-background-color: linear-gradient(#ABEBC6,#82E0AA); -fx-border-radius: 50px; -fx-background-radius: 50px;" text="حذف" textFill="#015b1d">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <ListView fx:id="Produce" layoutX="165.0" layoutY="202.0" nodeOrientation="RIGHT_TO_LEFT" prefHeight="327.0" prefWidth="181.0" style="-fx-background-color: transparent; -fx-border-width: 1; -fx-border-color: green; -fx-orientation: center;" />
+      <ListView fx:id="dateplant" layoutX="527.0" layoutY="202.0" nodeOrientation="RIGHT_TO_LEFT" prefHeight="327.0" prefWidth="181.0" style="-fx-background-color: transparent; -fx-border-width: 1; -fx-border-color: green;" />
+      <ListView fx:id="nameplant2" layoutX="708.0" layoutY="202.0" nodeOrientation="RIGHT_TO_LEFT" prefHeight="327.0" prefWidth="181.0" style="-fx-background-color: transparent; -fx-border-width: 1; -fx-border-color: green;" />
+      <Text fx:id="name" fill="#015b1d" layoutX="679.0" layoutY="78.0" nodeOrientation="RIGHT_TO_LEFT" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="246.99999618530273">
+         <font>
+            <Font name="Calibri" size="21.0" />
+         </font>
+      </Text>
+      <Label layoutX="542.0" layoutY="159.0" prefHeight="21.0" prefWidth="200.0" text="تاريخ بداية الزراعه" textFill="#015b1d">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="754.0" layoutY="159.0" prefHeight="21.0" prefWidth="200.0" text="اسم الزرعه" textFill="#015b1d">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="393.0" layoutY="159.0" prefHeight="21.0" prefWidth="200.0" text="وقت الري" textFill="#015b1d">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="196.0" layoutY="159.0" prefHeight="21.0" prefWidth="200.0" text="انتاج المحاصيل" textFill="#015b1d">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+   </children>
+   <rotationAxis>
+      <Point3D />
+   </rotationAxis>
+</AnchorPane>

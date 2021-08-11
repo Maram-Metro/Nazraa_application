@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="550.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="550.0" fitWidth="1000.0">
+         <image>
+            <Image url="@../Minimalistic%20Background.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="112.0" fitWidth="152.0" layoutX="453.0" layoutY="309.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../programing.png" />
+         </image>
+      </ImageView>
+      <Text fill="#015b1d" layoutX="775.0" layoutY="457.0" strokeType="OUTSIDE" strokeWidth="0.0" text="أمينه المقاطي">
+         <font>
+            <Font name="Calibri" size="18.0" />
+         </font>
+      </Text>
+      <Text fill="#015b1d" layoutX="432.0" layoutY="86.0" strokeType="OUTSIDE" strokeWidth="0.0" text="من نحن ">
+         <font>
+            <Font name="Calibri Italic" size="47.0" />
+         </font>
+      </Text>
+      <Text layoutX="585.0" layoutY="487.0" strokeType="OUTSIDE" strokeWidth="0.0" text="s438000292@st.uqu.edu.sa" wrappingWidth="127.0468682050705">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Text>
+      <Text fill="#015b1d" layoutX="481.0" layoutY="456.0" strokeType="OUTSIDE" strokeWidth="0.0" text="مرام مترو">
+         <font>
+            <Font name="Calibri" size="16.0" />
+         </font>
+      </Text>
+      <Text fill="#015b1d" layoutX="309.0" layoutY="458.0" strokeType="OUTSIDE" strokeWidth="0.0" text="أبرار الجفري">
+         <font>
+            <Font name="Calibri" size="16.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="711.0" layoutY="435.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../identification.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="50.0" fitWidth="44.0" layoutX="699.0" layoutY="462.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../email%20(1).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="866.0" layoutY="435.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../identification.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="548.0" layoutY="435.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../identification.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="391.0" layoutY="435.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../identification.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="235.0" layoutY="438.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../identification.png" />
+         </image>
+      </ImageView>
+      <Text fill="#015b1d" layoutX="640.0" layoutY="457.0" strokeType="OUTSIDE" strokeWidth="0.0" text="آلاء هشام" wrappingWidth="53.314945220947266">
+         <font>
+            <Font name="Calibri" size="16.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="47.0" fitWidth="44.0" layoutX="858.0" layoutY="462.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../email%20(1).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="50.0" fitWidth="44.0" layoutX="536.0" layoutY="462.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../email%20(1).png" />
+         </image>
+      </ImageView>
+      <Text layoutX="743.0" layoutY="487.0" strokeType="OUTSIDE" strokeWidth="0.0" text="s438015431@st.uqu.edu.sa" wrappingWidth="127.0468682050705">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Text>
+      <Text layoutX="424.0" layoutY="487.0" strokeType="OUTSIDE" strokeWidth="0.0" text="s436012457@st.uqu.edu.sa" wrappingWidth="204.00000095367432">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Text>
+      <Text layoutX="265.0" layoutY="487.0" strokeType="OUTSIDE" strokeWidth="0.0" text="s438006568@st.uqu.edu.sa" wrappingWidth="123.00000095367432">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Text>
+      <Text layoutX="129.0" strokeType="OUTSIDE" strokeWidth="0.0" text="s438002563@st.uqu.edu.sa" wrappingWidth="204.00000095367432">
+         <font>
+            <Font name="Arial Nova Cond" size="14.0" />
+         </font>
+      </Text>
+      <Text fill="#015b1d" layoutX="167.0" layoutY="457.0" strokeType="OUTSIDE" strokeWidth="0.0" text="شهد زيني">
+         <font>
+            <Font name="Calibri" size="16.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="50.0" fitWidth="44.0" layoutX="379.0" layoutY="461.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../email%20(1).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="50.0" fitWidth="44.0" layoutX="222.0" layoutY="461.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../email%20(1).png" />
+         </image>
+      </ImageView>
+      <Text layoutX="104.0" layoutY="486.0" strokeType="OUTSIDE" strokeWidth="0.0" text="s438002563@st.uqu.edu.sa" wrappingWidth="123.50000095367432">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Text>
+      <Text layoutX="71.0" layoutY="137.0" nodeOrientation="RIGHT_TO_LEFT" strokeType="OUTSIDE" strokeWidth="0.0" text="تم انشاء برنامج نزرع لمساعدة الأشخاص الذين لديهم اهتمام في الزراعه ، عن طريق تقديم بعض المعلومات الزراعية لهم التي من الممكن ان تكون مفيدة في رحلتهم الزراعية." wrappingWidth="827.6708984375">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <Text layoutX="595.0" layoutY="185.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ويقدم برنامج نزرع الخدمات التالية : " />
+      <Text layoutX="340.0" layoutY="206.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- امكانية الاطلاع على جميع أنواع الزرعات المتوفرة حسب التصنيف لتسهيل الرجوع اليها ." wrappingWidth="429.6146240234375" />
+      <Text layoutX="513.0" layoutY="245.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- امكانية البحث مع ظهور مقترحات عن اسم الزرعة ." />
+      <Text layoutX="410.0" layoutY="225.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- امكانية التنقل السلس بين الصفحات عن طريق الايقونات المتوفرة فيها ." wrappingWidth="448.28125" />
+      <Text layoutX="481.0" layoutY="267.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- امكانية اضافة وعرض وحذف الزرعات من صفحة زرعاتي ." />
+      <Text layoutX="260.0" layoutY="289.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- عند اختيار اسم الزرعة وتاريخ زراعتها يظهر تلقائيا موعد الري المناسب والوقت المتوقع لانتاج المحصول ." wrappingWidth="655.6709020137787" />
+      <Text layoutX="707.0" layoutY="315.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text layoutX="718.0" layoutY="314.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="660.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nazraa.OliveController">
+   <children>
+      <ImageView fitHeight="660.0" fitWidth="1280.0">
+         <image>
+            <Image url="@../Minimalistic%20Background.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="53.0" fitWidth="82.0" layoutX="11.0" layoutY="-28.0" pickOnBounds="true" preserveRatio="true" style="-fx-translate-x: 550; -fx-translate-y: 50;">
+         <image>
+            <Image url="@../olive.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="581.0" layoutY="82.0" prefHeight="28.0" prefWidth="60.0" text="الزيتون" textFill="#bba710">
+         <font>
+            <Font name="Calibri Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="966.0" layoutY="379.0" text="شكل النبات">
+         <font>
+            <Font name="Calibri Bold" size="22.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0" startX="1.0">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="#17d24f" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label layoutX="552.0" layoutY="114.0" text="الظروف البيئية">
+         <font>
+            <Font name="Calibri Bold" size="22.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0" startX="1.0">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="#17d24f" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label layoutX="935.0" layoutY="114.0" text="المعلومات العامة ">
+         <font>
+            <Font name="Calibri Bold" size="22.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0" startX="1.0">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="#17d24f" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label layoutX="235.0" layoutY="114.0" text="الزهرة">
+         <font>
+            <Font name="Calibri Bold" size="22.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0" startX="1.0">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="#17d24f" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label layoutX="583.0" layoutY="391.0" text="الثمرة">
+         <font>
+            <Font name="Calibri Bold" size="22.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0" startX="1.0">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="#17d24f" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label layoutX="193.0" layoutY="379.0" text="موقع الاستخدام">
+         <font>
+            <Font name="Calibri Bold" size="22.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0" startX="1.0">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="#17d24f" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <ImageView fitHeight="60.0" fitWidth="64.0" layoutX="510.0" layoutY="91.0" pickOnBounds="true" preserveRatio="true" style="-fx-translate-x: 550; -fx-translate-y: 50;">
+         <image>
+            <Image url="@../الفصيلة.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="53.0" fitWidth="64.0" layoutX="419.0" layoutY="93.0" pickOnBounds="true" preserveRatio="true" style="-fx-translate-x: 550; -fx-translate-y: 50;">
+         <image>
+            <Image url="@../الموطن.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="475.0" layoutY="197.0" pickOnBounds="true" preserveRatio="true" style="-fx-translate-x: 550; -fx-translate-y: 50;">
+         <image>
+            <Image url="@../الاكثار.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="53.0" fitWidth="58.0" layoutX="331.0" layoutY="95.0" pickOnBounds="true" preserveRatio="true" style="-fx-translate-x: 550; -fx-translate-y: 50;">
+         <image>
+            <Image url="@../الرطوبة.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="362.0" layoutY="197.0" pickOnBounds="true" preserveRatio="true" style="-fx-translate-x: 550; -fx-translate-y: 50;">
+         <image>
+            <Image url="@../الرعاية.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="1055.0" layoutY="191.0" prefHeight="28.0" prefWidth="96.0" text="اسم الفصيلة">
+         <font>
+            <Font name="Calibri Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="976.0" layoutY="191.0" prefHeight="28.0" prefWidth="64.0" text="الموطن">
+         <font>
+            <Font name="Calibri Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="885.0" layoutY="193.0" prefHeight="23.0" prefWidth="64.0" text="الرطوبة">
+         <font>
+            <Font name="Calibri Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="925.0" layoutY="308.0" prefHeight="26.0" prefWidth="58.0" text="الرعاية">
+         <font>
+            <Font name="Calibri Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="1032.0" layoutY="311.0" prefHeight="23.0" prefWidth="56.0" text="الاكثار">
+         <font>
+            <Font name="Calibri Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="1069.0" layoutY="219.0" prefHeight="18.0" prefWidth="74.0" text="الزيتونية" textFill="#057f2a">
+         <font>
+            <Font name="Calibri Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="954.0" layoutY="218.0" prefHeight="18.0" prefWidth="101.0" text="البحر المتوسط " textFill="#057f2a">
+         <font>
+            <Font name="Calibri Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="870.0" layoutY="212.0" prefHeight="23.0" prefWidth="82.0" text="رطبة جدا ," textFill="#057f2a">
+         <font>
+            <Font name="Calibri Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="1012.0" layoutY="335.0" prefHeight="23.0" prefWidth="96.0" text="التطعيم-التعقيل" textFill="#057f2a">
+         <font>
+            <Font name="Calibri Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="924.0" layoutY="332.0" prefHeight="23.0" prefWidth="64.0" text="معتدل" textFill="#057f2a">
+         <font>
+            <Font name="Calibri Bold" size="17.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="60.0" fitWidth="64.0" layoutX="126.0" layoutY="94.0" pickOnBounds="true" preserveRatio="true" style="-fx-translate-x: 550; -fx-translate-y: 50;">
+         <image>
+            <Image url="@../البيئةالحضرية.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="67.0" fitWidth="64.0" layoutX="-68.0" layoutY="86.0" pickOnBounds="true" preserveRatio="true" style="-fx-translate-x: 550; -fx-translate-y: 50;">
+         <image>
+            <Image url="@../البيئة%20الغدقة.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="73.0" fitWidth="64.0" layoutX="126.0" layoutY="204.0" pickOnBounds="true" preserveRatio="true" style="-fx-translate-x: 550; -fx-translate-y: 50;">
+         <image>
+            <Image url="@../درجة%20الملوحه.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="73.0" fitWidth="74.0" layoutX="-77.0" layoutY="203.0" pickOnBounds="true" preserveRatio="true" style="-fx-translate-x: 550; -fx-translate-y: 50;">
+         <image>
+            <Image url="@../تحمل%20الصقيع.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="478.0" layoutY="324.0" prefHeight="23.0" prefWidth="82.0" text="تحمل الصقيع">
+         <font>
+            <Font name="Calibri Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="664.0" layoutY="324.0" prefHeight="26.0" prefWidth="89.0" text="درجة الملوحة">
+         <font>
+            <Font name="Calibri Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="473.0" layoutY="199.0" prefHeight="26.0" prefWidth="96.0" text="البيئة الغدقة">
+         <font>
+            <Font name="Calibri Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="579.0" layoutY="200.0" prefHeight="32.0" prefWidth="64.0" text="الجفاف">
+         <font>
+            <Font name="Calibri Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="584.0" layoutY="222.0" prefHeight="26.0" prefWidth="45.0" text="مقاوم" textFill="#057f2a">
+         <font>
+            <Font name="Calibri Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="486.0" layoutY="219.0" prefHeight="23.0" prefWidth="82.0" text="حساس" textFill="#057f2a">
+         <font>
+            <Font name="Calibri Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="676.0" layoutY="352.0" prefHeight="23.0" prefWidth="68.0" text="عالية جدا" textFill="#057f2a">
+         <font>
+            <Font name="Calibri Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="495.0" layoutY="350.0" prefHeight="23.0" prefWidth="54.0" text="-9 مئوية" textFill="#057f2a">
+         <font>
+            <Font name="Calibri Bold" size="16.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="42.0" fitWidth="50.0" layoutX="528.0" layoutY="349.0" pickOnBounds="true" preserveRatio="true" style="-fx-translate-x: 550; -fx-translate-y: 50;">
+         <image>
+            <Image url="@../الارتفاع.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="42.0" fitWidth="50.0" layoutX="433.0" layoutY="359.0" pickOnBounds="true" preserveRatio="true" style="-fx-translate-x: 550; -fx-translate-y: 50;">
+         <image>
+            <Image url="@../التمدد.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="58.0" fitWidth="53.0" layoutX="336.0" layoutY="354.0" pickOnBounds="true" preserveRatio="true" style="-fx-translate-x: 550; -fx-translate-y: 50;">
+         <image>
+            <Image url="@../طبيعة%20الاوراق.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="1075.0" layoutY="456.0" prefHeight="22.0" prefWidth="68.0" text="الارتفاع">
+         <font>
+            <Font name="Calibri Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="985.0" layoutY="455.0" prefHeight="23.0" prefWidth="64.0" text="التمدد">
+         <font>
+            <Font name="Calibri Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="877.0" layoutY="457.0" prefHeight="23.0" prefWidth="96.0" text="طبيعة الاوراق">
+         <font>
+            <Font name="Calibri Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="1074.0" layoutY="481.0" prefHeight="23.0" prefWidth="96.0" text="9-6 متر" textFill="#057f2a">
+         <font>
+            <Font name="Calibri Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="977.0" layoutY="481.0" prefHeight="23.0" prefWidth="58.0" text="8-6 متر" textFill="#057f2a">
+         <font>
+            <Font name="Calibri Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="879.0" layoutY="483.0" prefHeight="23.0" prefWidth="77.0" text="دائم الخضرة" textFill="#057f2a">
+         <font>
+            <Font name="Calibri Bold" size="17.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="73.0" fitWidth="96.0" layoutX="-377.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true" style="-fx-translate-x: 550; -fx-translate-y: 50;">
+         <image>
+            <Image url="@../لون%20الزهرة.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="53.0" fitWidth="56.0" layoutX="-259.0" layoutY="95.0" pickOnBounds="true" preserveRatio="true" style="-fx-translate-x: 550; -fx-translate-y: 50;">
+         <image>
+            <Image url="@../موعد.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="64.0" fitWidth="60.0" layoutX="-265.0" layoutY="205.0" pickOnBounds="true" preserveRatio="true" style="-fx-translate-x: 550; -fx-translate-y: 50;">
+         <image>
+            <Image url="@../الشم.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="53.0" fitWidth="54.0" layoutX="-380.0" layoutY="211.0" pickOnBounds="true" preserveRatio="true" style="-fx-translate-x: 550; -fx-translate-y: 50;">
+         <image>
+            <Image url="@../flower-removebg-preview%20(1).png" />
+         </image>
+      </ImageView>
+      <Label layoutX="183.0" layoutY="200.0" prefHeight="23.0" prefWidth="74.0" text="اللون">
+         <font>
+            <Font name="Calibri Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="272.0" layoutY="197.0" prefHeight="23.0" prefWidth="106.0" text="موعد الازهار">
+         <font>
+            <Font name="Calibri Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="296.0" layoutY="301.0" prefHeight="42.0" prefWidth="58.0" text="الرائحة">
+         <font>
+            <Font name="Calibri Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="175.0" layoutY="308.0" prefHeight="28.0" prefWidth="82.0" text="الحجم">
+         <font>
+            <Font name="Calibri Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="158.0" layoutY="219.0" prefHeight="23.0" prefWidth="96.0" text="أبيض , أصفر" textFill="#057f2a">
+         <font>
+            <Font name="Calibri Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="270.0" layoutY="210.0" prefHeight="26.0" prefWidth="122.0" text="من مطلع مايو" textFill="#057f2a">
+         <font>
+            <Font name="Calibri Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="273.0" layoutY="331.0" prefHeight="32.0" prefWidth="89.0" text="حلوة , عطرية" textFill="#057f2a">
+         <font>
+            <Font name="Calibri Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="170.0" layoutY="333.0" prefHeight="28.0" prefWidth="112.0" text="0.8 سم" textFill="#057f2a">
+         <font>
+            <Font name="Calibri Bold" size="17.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="53.0" fitWidth="53.0" layoutX="-326.0" layoutY="365.0" pickOnBounds="true" preserveRatio="true" style="-fx-translate-x: 550; -fx-translate-y: 50;">
+         <image>
+            <Image url="@../address-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="208.0" layoutY="477.0" prefHeight="26.0" prefWidth="88.0" text="المنزل , الريف" textFill="#057f2a">
+         <font>
+            <Font name="Calibri Bold" size="17.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="58.0" fitWidth="60.0" layoutX="94.0" layoutY="372.0" pickOnBounds="true" preserveRatio="true" style="-fx-translate-x: 550; -fx-translate-y: 50;">
+         <image>
+            <Image url="@../jj.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="637.0" layoutY="478.0" prefHeight="23.0" prefWidth="89.0" text="نوع الثمرة ">
+         <font>
+            <Font name="Calibri Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="531.0" layoutY="481.0" prefHeight="23.0" prefWidth="50.0" text="الحجم">
+         <font>
+            <Font name="Calibri Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="653.0" layoutY="506.0" prefHeight="21.0" prefWidth="50.0" text="حسلة" textFill="#057f2a">
+         <font>
+            <Font name="Calibri Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="528.0" layoutY="505.0" prefHeight="23.0" prefWidth="96.0" text="4-3 سم" textFill="#057f2a">
+         <font>
+            <Font name="Calibri Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="268.0" layoutY="232.0" prefHeight="23.0" prefWidth="106.0" text="حتى نهاية يونيو" textFill="#057f2a">
+         <font>
+            <Font name="Calibri Bold" size="16.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="73.0" fitWidth="74.0" layoutX="17.0" layoutY="204.0" pickOnBounds="true" preserveRatio="true" style="-fx-translate-x: 550; -fx-translate-y: 50;">
+         <image>
+            <Image url="@../الري.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="588.0" layoutY="322.0" prefHeight="26.0" prefWidth="34.0" text="الري">
+         <font>
+            <Font name="Calibri Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="575.0" layoutY="350.0" prefHeight="23.0" prefWidth="60.0" text="منخفض" textFill="#057f2a">
+         <font>
+            <Font name="Calibri Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="182.0" layoutY="500.0" prefHeight="26.0" prefWidth="147.0" text="الأماكن العامة المفتوحة" textFill="#057f2a">
+         <font>
+            <Font name="Calibri Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="183.0" layoutY="523.0" prefHeight="26.0" prefWidth="147.0" text="حديقة  , تشجير التلال" textFill="#057f2a">
+         <font>
+            <Font name="Calibri Bold" size="17.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="60.0" fitWidth="64.0" layoutX="22.0" layoutY="95.0" pickOnBounds="true" preserveRatio="true" style="-fx-translate-x: 550; -fx-translate-y: 50;">
+         <image>
+            <Image url="@../الجفاف.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="664.0" layoutY="203.0" prefHeight="32.0" prefWidth="89.0" text="البيئة الحضرية">
+         <font>
+            <Font name="Calibri Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="688.0" layoutY="224.0" prefHeight="26.0" prefWidth="34.0" text="مقاوم" textFill="#057f2a">
+         <font>
+            <Font name="Calibri Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="875.0" layoutY="227.0" prefHeight="23.0" prefWidth="82.0" text="شبه قاحلة" textFill="#057f2a">
+         <font>
+            <Font name="Calibri Bold" size="17.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="84.0" fitWidth="90.0" layoutX="-41.0" layoutY="355.0" pickOnBounds="true" preserveRatio="true" style="-fx-translate-x: 550; -fx-translate-y: 50;">
+         <image>
+            <Image url="@../الحجم.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="60.0" fitWidth="60.0" onMouseClicked="#BackScene" pickOnBounds="true" preserveRatio="true" style="-fx-translate-x: 60; -fx-translate-y: 470;">
+         <image>
+            <Image url="@../chevronLeft.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="50.0" fitWidth="50.0" onMouseClicked="#Exit" pickOnBounds="true" preserveRatio="true" style="-fx-translate-x: 1070; -fx-translate-y: 40;">
+         <image>
+            <Image url="@../logout.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="50.0" fitWidth="50.0" onMouseClicked="#DisplayProfile" pickOnBounds="true" preserveRatio="true" style="-fx-translate-x: 930; -fx-translate-y: 45;">
+         <image>
+            <Image url="@../personal_info.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="50.0" fitWidth="50.0" onMouseClicked="#DisplayHome" pickOnBounds="true" preserveRatio="true" style="-fx-translate-x: 1000; -fx-translate-y: 40;">
+         <image>
+            <Image url="@../house.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
