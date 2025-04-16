@@ -59,7 +59,4 @@ Nazraa_application
 📌 About
 This project was developed as part of a learning journey to combine creativity with coding. The application serves as a helpful and aesthetic guide for anyone interested in gardening.
 
-👩🏻‍💻 Author
-Maram - GitHub Profile
-🌐 Portfolio
 
